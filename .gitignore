@@ -1,0 +1,17 @@
+# logs directory
+logs
+
+# .venv directory
+.venv
+
+# python cache
+__pycache__
+
+# pyc files
+*.pyc
+
+# sqlite db files
+*.db
+
+# csv files
+pull_requests_results.csv
