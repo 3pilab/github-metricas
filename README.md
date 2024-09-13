@@ -92,10 +92,10 @@ los pull requests que no han sido agregados a la base de datos.
 #### Uso
 
 El script puede recibir como argumento una fecha de inicio, a partir de la cual
-se extraeran los pull requests. Por defecto se extrae desde el ultimo mes.
+se extraeran los pull requests y el nombre de la organizacion en github. 
 
 ```bash
-python pr.py "2021-01-01"
+python pr.py "2021-01-01" "My Super Organization"
 ```
 
 #### Mas adelante
